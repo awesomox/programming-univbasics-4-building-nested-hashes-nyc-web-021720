@@ -13,7 +13,7 @@ end
 def monopoly_with_third_tier
   monopoly = {
 	  :railroads => {:pieces => 4, 
-	  :rent_in_dollars => {:first_level_ownership => "", :second_level_ownership => "", :third_level_ownership => "", :fourth_level_ownership => ""}, 
+	  :rent_in_dollars => {:one_piece_owned => "25", :second_piece_owned => "50", :third_piece_owned => "100", :fourth_piece_owned => "200"}, 
 	  :names => {:owner1 => "", :owner2 => "", :owner3 => "", :owner4 => ""}
 	  }
   }
